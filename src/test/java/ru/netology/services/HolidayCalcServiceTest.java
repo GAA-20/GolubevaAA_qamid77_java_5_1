@@ -1,9 +1,10 @@
 package ru.netology.services;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class HolidayCalcServiceTest {
+
     @Test
     public void shouldCalculateHolidayForCase1() {
         HolidayCalcService service = new HolidayCalcService();
